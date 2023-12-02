@@ -10,6 +10,9 @@ html {
 }
 
 /* header */
+.show-only-mobile {
+    display: none;
+}
 .container.position-relative {
     padding: 0;
 }
@@ -32,6 +35,13 @@ header>div {
     width: 80%;
 }
 /* header item */
+.box-nav-in-mobile,
+.overlay-menu {
+    display: none;
+}
+.cart-in-mobile {
+    display: none;
+}
 .header-item {
     width: 100%;
     display: flex;
@@ -576,11 +586,13 @@ header>div {
     .collapse.navbar-collapse.active-mobile {
         display: block;
         position: fixed;
-        top: 200px;
+        top: 0;
         left: 0;
-        right: 0;
+        width: 90%;
+        bottom: 0;
         z-index: 999999999;
         overflow: scroll;
+        background-color: #f3f3f3;
     }
     .drop-down-menu {
         width: 100%;
@@ -595,6 +607,7 @@ header>div {
         position: relative;
     }
     .navbar-light .navbar-nav .nav-link.menu-item-link {
-        background-color: #129CC0;
+        background-color: unset;
+        color: rgba(0,0,0,.75);
     }
 }

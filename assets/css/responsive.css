@@ -1,0 +1,136 @@
+@media (max-width: 767px) {
+    
+    .list-post .card .card-body .cart-title {
+        text-align: center;
+    }
+    .hide-on-mobile,
+    .list-post .card .card-body .card-text.hide-on-mobile {
+        display: none;
+    }
+    .header-logo {
+        margin: 0 auto;
+    }
+    .flex-column-reverse-in-mobile {
+        flex-direction: column-reverse;
+    }
+    .show-only-mobile {
+        display: block;
+        text-align: right;
+    }
+    .show-only-mobile .header-item {
+        display: unset;
+    }
+    .box-nav-in-mobile>div{
+        z-index: 999999999;
+    }
+    footer {
+        padding: 20px 15px;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    .overlay-menu {
+        display: none;
+    }
+    .box-nav-in-mobile.active {
+        display: block;
+    }
+    .overlay-menu.active {
+        display: block;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .p-product-details {
+        flex-direction: column;
+    }
+    .p-product-details  .product-box-img {
+        width: 100%;
+    }
+    .p-product-details .main-img img {
+        width: 100%;
+    }
+    .fb-like {
+        width: 100%;
+        overflow: hidden;
+    }
+    .info-content {
+        padding: 0 10px;
+    }
+    .info-content .form-content .form-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    .box-input-have-check {
+        width: 100%;
+    }
+    .info-content .form-content .form-group input,
+    .info-content .form-content .form-group textarea {
+        width: 100%;
+    }
+    .box-checkbox {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .info-content .form-content .form-group label {
+        text-align: left;
+    }
+    .cart-in-mobile {
+        display: block;
+        padding: 5px 10px;
+    }
+    .cart-product {
+        display: flex;
+    }
+    .cart-p-img img{
+        width: 70px;
+    }
+    .cart-p-info {
+        flex: 1;
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .cart-p-info .name-product {
+        color: #000;
+    }
+    .cart-p-info .note {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box-price-p {
+        text-align: right;
+        font-size: 1.5rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .box-fee-other {
+        padding: 0px 10px;
+    }
+
+    .contact-content {
+
+    }
+    .form-contact {
+        padding: 5px 10px;
+    }
+    .contact-content .form-group {
+        flex-direction: column;
+    }
+    .contact-content .form-group  label {
+        width: 100%;
+    }
+    .introduction-box-img img:first-child{
+        width: 30%;
+    }
+    .introduction-box-img img:last-child{
+        width: 70%;
+    }
+    .card-in-post .card-body {
+        padding: 0;
+    }
+}
