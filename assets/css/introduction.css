@@ -1,0 +1,24 @@
+.introduction-title {
+    margin: 15px 0;
+}
+.introduction-title  h1 {
+    margin: 0;
+}
+.introduction-content {
+
+}
+.introduction-box-img {
+    display: flex;
+}
+.introduction-box-img img:first-child{
+    width: 343px;
+    object-fit: contain;
+}
+.introduction-box-img img:last-child{
+    width: 601px;
+    object-fit: contain;
+}
+.main-introduction p{
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+}

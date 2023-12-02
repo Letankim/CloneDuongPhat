@@ -1,0 +1,47 @@
+.p-post-title{
+    margin: 20px 0;
+}
+.p-post-title h1 {
+    margin: 0;
+}
+.p-post-title h1 a {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #000;
+}
+.p-list-post {
+    width: 100%;
+}
+.p-list-post .card {
+    border: none;
+    margin-bottom: 10px;
+}
+.p-list-post .card .card-box-img {
+    padding: 0;
+}
+.p-list-post .card img {
+    width: 100%;
+}
+.p-list-post .card .card-in-post {
+    padding: 0px 5px;
+}
+.p-list-post .card .card-body {
+    font-size: 1.6rem;
+}
+.p-list-post .card .card-title {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+.p-list-post .card .card-title:hover  {
+    text-decoration: underline;
+}
+.p-list-post .card .card-text {
+    margin-top: 10px;
+    display: -webkit-box;
+    line-height: 1.8rem;
+    max-height: 5.4rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-align: justify;
+}

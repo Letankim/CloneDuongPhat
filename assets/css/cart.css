@@ -1,0 +1,183 @@
+.p-cart-title {
+    margin: 20px 0;
+}
+.p-cart-title h1{
+    margin: 0;
+}
+.main-cart table {
+    width: 100%;
+    font-size: 1.6rem;
+}
+.box-name-product {
+    width: 100%;
+}
+.box-name-product .name-product {
+    color: #000;
+}
+.box-name-product .note {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+.box-name-product .note input {
+    flex: 1;
+}
+.main-cart table thead {
+    text-align: right;
+    border-bottom: 1px dotted #ccc;
+    font-size: 1.6rem;
+}
+table tr td.tb-w30 {
+    width: 30%;
+}
+
+table tr td.tb-w15 {
+    width: 20%;
+}
+
+table tr td {
+    padding: 10px 15px;
+    text-align: right;
+}
+
+table tr td img {
+    width: 80px;
+}
+
+.btn-trash {
+    color: #000;
+    font-size: 2rem;
+}
+table tr:last-child {
+    border-bottom: 1px dotted #ccc;
+}
+.btn-trash:hover {
+    color: #000;
+}
+
+.box-info-order {
+
+}
+.box-fee-other {
+    text-align: right;
+}
+.list-item-other {
+    padding: 20px 0px;
+    list-style: none;
+}
+.item-other {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.item-other label {
+    font-size: 1.6rem;
+}
+.total-box-cart {
+    display: block;
+    width: 170px;
+}
+.total-amount {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* form order */
+.info-content {
+    margin: 0 auto;
+}
+.form-content .form-group {
+    display: flex;
+}
+.form-group label,
+.form-group span {
+    padding-right: 20px;
+    font-size: 1.6rem;
+    width: 25%;
+    text-align: right;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group.fg-textarea {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-group input,
+.form-group textarea,
+.box-input-have-check{
+    font-size: 1.4rem;
+    width: 40%;
+}
+
+.box-input-have-check input {
+    width: 100%;
+}
+.box-checkbox {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.box-button {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.box-button button,
+.box-button a {
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #129CC0;
+    color: #fff;
+    cursor: pointer;
+}
+.box-button .continue-buy {
+    color: #fff !important;
+}
+.box-button .continue-buy:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.box-button button:hover {
+    opacity: 0.8;
+}
+.box-show-message p {
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: bold;
+}
+.select-address {
+    flex: 1;
+}
+.select-address>div{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+}
+
+.select-address .select-address-item{
+    display: flex;
+    gap: 10px;
+    font-size: 1.6rem;
+}
+.select-address .select-address-item label {
+    margin-right: 10px;
+    display: block;
+}
+.select-address .select-address-item select {
+    display: block;
+}
+.form-group.wrapper-select-address {
+    display: none;
+}
+.form-group.wrapper-select-address.active {
+    display: flex;
+}

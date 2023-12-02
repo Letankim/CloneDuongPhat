@@ -1,0 +1,600 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.container.position-relative {
+    padding: 0;
+}
+.align-center-y {
+    display: flex;
+    align-items: center;
+}
+header {
+    background-image: url('https://duongphatvietnam.com/userfiles/img/606763/header02.jpg');
+}
+header>div {
+    border-top: 1px solid #777;
+    padding: 10px 0;
+}
+.header-logo {
+    width: 150px;
+}
+
+.header-logo img {
+    width: 80%;
+}
+/* header item */
+.header-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-item .header-item-img img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-item-content {
+    flex: 1;
+    
+}
+.header-item-title {
+    margin: 0;
+    text-transform: uppercase;
+    color: #129CC0!important;
+    font-size:1.4rem;
+    font-weight: bold;
+}
+.header-item-desc {
+    font-size: 1.4rem;
+    margin: 0;
+}
+.header-item-desc-cart {
+    color: #000;
+}
+.header-item-desc-cart:hover {
+    color: #000;
+}
+.header-item-desc.color-red {
+    display: block;
+    color: #CF3636;
+}
+.header-item.mini-cart {
+    position: relative;
+}
+.header-item.mini-cart:hover .box-cart-mini{
+    display: block;
+
+}
+.box-cart-mini {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    min-width: 300px;
+    background-color: #fff;
+    z-index: 9999999;
+    text-align: right;
+}
+.wrapper-cart-mini-info {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.cart-mini-info-p {
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-mini-info-img {
+    width: 40px;
+    margin-right: 20px;
+}
+.cart-mini-info-img img {
+    width: 100%;
+}
+.cart-mini-info-p-content {
+    font-size: 1.4rem;
+}
+.cart-mini-info-p-content-name {
+    margin: 0;
+}
+.cart-mini-info-p-content-name a{
+    color: #000;
+}
+.cart-mini-info-p-content-price {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #48A4F4;
+}
+.cart-mini-info-p-content-number {
+    font-size: 1.6rem;
+}
+.mini-cart-total {
+    font-size: 1.6rem;
+}
+.mini-cart-delete a{
+    color: #000;
+    font-size: 1.4rem;
+}
+.cart-mini-other {
+    font-size: 1.3rem;
+}
+.cart-mini-other-item {
+    color: #000;
+}
+.cart-mini-other-item a {
+    display: block;
+    color: #000;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.cart-mini-other-item span:last-child {
+    display: inline-block;
+    width: 70px;
+}
+
+/*  */
+/* navbar */
+.box-nav {
+    padding: 0;
+    width: 100%;
+    background-color: #777;
+}
+.nav-item {
+    position: relative;
+}
+.drop-down-menu {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 100%;
+    background-color: #00aff2;
+    z-index: 99999999;
+    display: none;
+}
+.list-drop-menu-1 {
+    list-style: none;
+    min-width: 100%;
+}
+.item-drop-menu-1 {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.item-drop-menu-1-link {
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: block;
+    color: #fff;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.item-drop-menu-1-link:hover {
+    color: #fff;
+    background-color: #48A4F4;
+}
+/* menu 2 */
+.drop-down-menu-2 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #00aff2;
+    display: none;
+    z-index: 9999999999;
+}
+.item-drop-menu-1:hover .item-drop-menu-1-link{
+    display: block;
+    background-color: #48A4F4;
+}
+.item-drop-menu-1:hover .drop-down-menu-2{
+    display: block;
+}
+.list-drop-menu-2 {
+    list-style: none;
+    min-width: 100%;
+}
+.item-drop-menu-2 {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.item-drop-menu-2-link {
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: block;
+    color: #fff;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.item-drop-menu-2-link:hover {
+    color: #fff;
+    background-color: #48A4F4;
+}
+.navbar.navbar-expand-lg{
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link.menu-item-link {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.navbar-light .navbar-nav .nav-item .menu-item-link:hover,
+.navbar-light .navbar-nav .nav-item:hover .menu-item-link  {
+    background-color: #129CC0;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-item:hover .drop-down-menu {
+    display: block;
+}
+.navbar-light .navbar-nav .nav-link.menu-item-link.active {
+    background-color: #129CC0;
+}
+.search-in-mobile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-search {
+    padding: 10px;
+    width: 250px;
+    border: none;
+}
+.search-in-mobile i{
+    right: 8px;
+    position: absolute;
+    font-size: 1.6rem;
+    color: #070707;
+    cursor: pointer;
+}
+/* banner */
+.container_banner {
+    padding: 10px 0;
+}
+#carouselExampleControls .carousel-inner,
+#carouselExampleControls .carousel-inner .carousel-item{
+    height: 100%;
+}
+.title_nav_left {
+    line-height: 45px;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #48A4F4;
+    color: #fff;
+}
+.list_nav_left {
+    list-style: none;
+    padding: 0;
+}
+.item_nav_left {
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    background: #000000;
+}
+
+.item_nav_link {
+    width: 100%;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6.5px 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.item_nav_link:hover {
+    color: #FFFFFF; 
+    text-decoration: underline;
+}
+
+@media (min-width: 1200px)  {
+.container {
+    max-width: 1200px;
+}
+}
+
+.quick-alo-phone {
+    position: fixed;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    z-index: 200000 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: visibility .5s;
+    -moz-transition: visibility .5s;
+    -o-transition: visibility .5s;
+    transition: visibility .5s;
+    left: 2px;
+    bottom: 2px;
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-circle {
+    border-color: #00aff2;
+    border-color: #bfebfc 9;
+    opacity: .5;
+}
+.quick-alo-ph-circle {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30,30,30,0.4);
+    border: 2px solid #bfebfc 9;
+    opacity: .1;
+    -webkit-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@keyframes quick-alo-circle-anim {
+    30% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        -webkit-opacity: .5;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        -webkit-opacity: .1;
+    }
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-circle-fill {
+    background-color: rgba(0,175,242,0.5);
+    background-color: #a6e3fa 9;
+    opacity: .75 !important;
+}
+.quick-alo-phone.quick-alo-green.quick-alo-hover .quick-alo-ph-circle, .quick-alo-phone.quick-alo-green:hover .quick-alo-ph-circle {
+    border-color: #75eb50;
+    border-color: #baf5a7 9;
+    opacity: .5;
+}
+.quick-alo-phone.quick-alo-green:hover .quick-alo-ph-circle-fill {
+    background-color: rgba(117,235,80,0.5);
+    background-color: #baf5a7 9;
+    opacity: .75 !important;
+}
+.quick-alo-phone.quick-alo-green:hover .quick-alo-ph-img-circle {
+    background-color: #75eb50;
+    background-color: #75eb50 9;
+}
+.quick-alo-ph-circle-fill {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .1;
+    -webkit-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@keyframes quick-alo-circle-fill-anim {
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2;
+    }
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-img-circle {
+    background-color: #00aff2;
+    background-color: #00aff2 9;
+}
+.quick-alo-ph-img-circle {
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    background: rgba(30,30,30,0.1) url(https://duongphatvietnam.com/templates/images/YWJeVO2.png) no-repeat center center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: .7;
+    -webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+@keyframes quick-alo-circle-img-anim {
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+.contactright {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+}
+.contactright div:hover {
+    text-decoration: none !important;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15), 0 4px 15px rgba(0,0,0,.13);
+}
+
+.contactright > div {
+    margin: 8px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    cursor: pointer;
+    position: relative;
+}
+.contactright > div {
+    width: 54px !important;
+    height: 54px !important;
+    margin: 6px !important;
+    background-size: 100% !important;
+    border: 2px solid #fff !important;
+    border-radius: 50% !important;
+}
+.contactright div {
+    overflow: visible !important;
+}
+.iconc.facebook {
+    background-image: url(https://duongphatvietnam.com/files/assets/iconfacebook.png);
+}
+
+.iconc.zalo {
+    background-image: url(https://duongphatvietnam.com/files/assets/iconzalo.png);
+}
+.iconc.call {
+    background-image: url(https://duongphatvietnam.com/files/assets/iconcall.png);
+}
+
+.iconc.whatsapp {
+    background-image: url(https://duongphatvietnam.com/files/assets/iconwhatsapp.png);
+}
+
+.ctext {
+    right: 60px;
+    background-image: linear-gradient(180deg, #4fc3f7 0%, #0277bd 100%);
+    color: #fff;
+    visibility: hidden;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    top: calc(50% - 16px);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.contactright div:hover .ctext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ctextmobile {
+    display: none;
+}
+
+/* box comment */
+.box-comment {
+    margin-top: 10px;
+}
+.box-btn-show-menu {
+    display: none;
+}
+@media (max-width: 767px) {
+    .box-btn-show-menu.show-on-mobile {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+    }
+    .container.position-relative {
+        padding: 5px;
+        padding-left: 10px;
+        position: relative;
+    }
+    .search-in-mobile{
+        width: 25%;
+    }
+    .collapse.navbar-collapse.active-mobile {
+        display: block;
+        position: fixed;
+        top: 200px;
+        left: 0;
+        right: 0;
+        z-index: 999999999;
+        overflow: scroll;
+    }
+    .drop-down-menu {
+        width: 100%;
+        padding-left: 30px;
+        position: relative;
+    }
+    .drop-down-menu-2 {
+        top: 100%;
+        left: 0px;
+        padding-left: 30px;
+        width: 100%;
+        position: relative;
+    }
+    .navbar-light .navbar-nav .nav-link.menu-item-link {
+        background-color: #129CC0;
+    }
+}

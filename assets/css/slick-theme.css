@@ -1,0 +1,29 @@
+.slick-arrow {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    z-index: 9999;
+    opacity: 1;
+    transition: var(--transition-text);
+    border: 0;
+    font-size: 1.6rem;
+}
+.slick-next,
+.slick-prev {
+    outline: 0 !important;
+}
+
+.slick-prev.slick-arrow {
+    left: 0px;
+    color: #fff;
+    font-size: 5.7rem;
+    border: none;
+    filter: drop-shadow(1px 1px 3px #999);
+}
+.slick-next.slick-arrow {
+    right: 0px;
+    color: #fff;
+    font-size: 5.7rem;
+    filter: drop-shadow(1px 1px 3px #999);
+}
